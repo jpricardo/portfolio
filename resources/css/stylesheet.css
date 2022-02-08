@@ -4,8 +4,9 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-
 
 .perfil {
   position: fixed;
@@ -13,6 +14,18 @@ body {
   color: white;
   background-color: #111111;
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width:768px) {
+  .perfil {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .detalhes {
+    padding-left: 15px;
+  }
 }
 
 .foto-de-perfil {
