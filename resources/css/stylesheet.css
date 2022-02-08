@@ -1,5 +1,44 @@
+html {
+  font-size: 1.2rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .perfil {
+  position: fixed;
+  height: 100%;
   color: white;
-  background-color: #222222;
+  background-color: #111111;
+  padding-top: 5%;
+}
+
+.foto-de-perfil {
+  margin: 15px;
+  height: 175px;
+  border-radius: 50%;
+  border: 1px solid orange
+}
+
+.navigation li {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation a {
+  color: white;
+}
+
+.navigation a:hover {
+  color: orange;
+}
+
+.detalhes {
+  padding-top: 5%;
+  padding-left: 28%;
 }
