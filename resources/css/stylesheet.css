@@ -17,6 +17,11 @@ body {
   padding-bottom: 5%;
 }
 
+.detalhes {
+  padding-top: 5%;
+  padding-left: 28%;
+}
+
 @media screen and (max-width:768px) {
   .perfil {
     position: relative;
@@ -24,9 +29,10 @@ body {
     height: auto;
   }
   .detalhes {
-    padding-left: 15px;
+    padding-left: 5%;
   }
 }
+
 
 .foto-de-perfil {
   margin: 15px;
@@ -49,9 +55,4 @@ a {
 
 .navigation a:hover {
   color: orange;
-}
-
-.detalhes {
-  padding-top: 5%;
-  padding-left: 28%;
 }
