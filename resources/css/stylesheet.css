@@ -6,6 +6,11 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
   padding: 0px;
+  background-image: url('../images/bg2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 .perfil {
@@ -20,9 +25,15 @@ body {
 .detalhes {
   padding-top: 5%;
   padding-left: 28%;
+
 }
 
 @media screen and (max-width:768px) {
+  body {
+    background-image: none;
+    background-attachment: local;
+    background-position: bottom;
+  }
   .perfil {
     position: relative;
     width: 100%;
