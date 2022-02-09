@@ -7,7 +7,6 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
-  padding-right: 5px;
   background-image: url('../images/bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,6 +44,7 @@ span.line {
 .detalhes {
   padding-top: 2%;
   padding-left: 28%;
+  padding-right: 5px;
 }
 
 .navigation li {
@@ -100,6 +100,7 @@ span.line {
   }
   .detalhes {
     padding-left: 5%;
+    padding-right: 5%;
   }
   #skills .card {
     margin: 10px 2px;
