@@ -25,12 +25,11 @@ body {
 .detalhes {
   padding-top: 5%;
   padding-left: 28%;
-
 }
 
 @media screen and (max-width:768px) {
   body {
-    background-image: none;
+    background: #000000
     background-attachment: local;
     background-position: bottom;
   }
