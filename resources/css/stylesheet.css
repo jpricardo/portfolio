@@ -7,12 +7,20 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
-  padding: 0px;
+  padding-right: 5px;
   background-image: url('../images/bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+span.line {
+  display: inline-block;
 }
 
 .perfil {
@@ -24,9 +32,52 @@ body {
   padding-bottom: 5%;
 }
 
+
+
+.foto-de-perfil {
+  margin: 15px;
+  width: 50%;
+  border-radius: 50%;
+  border: 1px solid orange;
+  padding: 2px;
+}
+
 .detalhes {
-  padding-top: 5%;
+  padding-top: 2%;
   padding-left: 28%;
+}
+
+.navigation li {
+  padding: 10px;
+}
+
+
+.navigation a {
+  color: white;
+  font-size: 24px;
+}
+
+.navigation a:hover {
+  color: orange;
+}
+
+#skills .card {
+  margin: 2px;
+  height: 100%;
+  border: 1px solid grey;
+}
+
+
+#skills .card-img-top {
+  padding: 20px;
+  height: 175px;
+  margin: auto;
+  object-fit: contain;
+}
+
+
+#skills .card-body {
+  overflow: hidden;
 }
 
 @media screen and (max-width:768px) {
@@ -40,32 +91,21 @@ body {
     width: 100%;
     height: auto;
   }
+  .foto-de-perfil {
+    width: 40%;
+    padding: 2px;
+  }
+  .navigation li {
+    padding: 5px;
+  }
   .detalhes {
     padding-left: 5%;
   }
-}
-
-
-.foto-de-perfil {
-  margin: 15px;
-  width: 40%;
-  border-radius: 50%;
-  border: 1px solid orange;
-  padding: 2px;
-}
-
-.navigation li {
-  padding: 10px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.navigation a {
-  color: white;
-}
-
-.navigation a:hover {
-  color: orange;
+  #skills .card {
+    margin: 10px 2px;
+  }
+  #skills .col-sm {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
