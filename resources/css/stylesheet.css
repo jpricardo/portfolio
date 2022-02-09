@@ -1,3 +1,5 @@
+
+
 html {
   font-size: 1.2rem;
 }
@@ -29,7 +31,7 @@ body {
 
 @media screen and (max-width:768px) {
   body {
-    background: #000000
+    background: white;
     background-attachment: local;
     background-position: bottom;
   }
@@ -46,9 +48,10 @@ body {
 
 .foto-de-perfil {
   margin: 15px;
-  height: 175px;
+  width: 40%;
   border-radius: 50%;
-  border: 1px solid orange
+  border: 1px solid orange;
+  padding: 2px;
 }
 
 .navigation li {
