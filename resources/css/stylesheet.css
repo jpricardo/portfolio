@@ -38,8 +38,8 @@ span.line {
   margin: 15px;
   width: 55%;
   border-radius: 50%;
-  border: 1px solid orange;
-  padding: 2px;
+  border: 5px solid rgba(256, 165, 0, 0.8);
+  box-shadow: 1px 1px 1px black;
 }
 
 .detalhes {
