@@ -1,13 +1,11 @@
-
-
 html {
   font-size: 1.2rem;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0px;
-  background-image: url('../images/bg2.png');
+  background-image: url("../images/bg2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,13 +30,10 @@ span.line {
   box-shadow: 1px 1px 5px black;
 }
 
-
-
 .foto-de-perfil {
   margin: 15px;
   width: 55%;
   border-radius: 50%;
-  border: 5px solid rgba(256, 165, 0, 0.8);
   box-shadow: 1px 1px 1px black;
 }
 
@@ -48,10 +43,10 @@ span.line {
   padding-right: 5px;
 }
 
-.navigation li, p {
+.navigation li,
+p {
   padding: 10px;
 }
-
 
 .navigation a {
   color: white;
@@ -68,7 +63,6 @@ span.line {
   border: 1px solid grey;
 }
 
-
 #skills .card-img-top {
   padding: 20px;
   height: 175px;
@@ -76,12 +70,11 @@ span.line {
   object-fit: contain;
 }
 
-
 #skills .card-body {
   overflow: hidden;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   body {
     background: white;
     background-attachment: local;
